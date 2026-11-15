@@ -17,7 +17,7 @@ A USB-C to 3.5mm headphone adapter built from separate boards soldered together 
 - CC lines are NOT on the back pads:
   - R1 = CC1 (pin A5), populated with a 5.1kΩ pull-down.
   - R2 = CC2 (pin B5 / VCONN), empty pads.
-  - Both CC lines are now tied with 5.1kΩ (done 2026-11-14).
+  - Both CC lines are now tied with 5.1kΩ through-hole resistors soldered to the CC pins and secured with hot glue (done 2026-11-14).
 - 5.1kΩ tells the phone "USB device" (UFP) — correct for the DAC path. Passive analog audio mode would need <1kΩ on CC; with 5.1kΩ the phone attempts USB enumeration and produces no analog audio.
 - To tap a CC signal, solder at the R1/R2 pads.
 
@@ -41,6 +41,26 @@ A USB-C to 3.5mm headphone adapter built from separate boards soldered together 
 - USB-C breakout → DAC board USB-A connector pins: V → pin 1 (5V), D- → pin 2, D+ → pin 3, G → pin 4 (GND).
 - Desolder the USB-A connector from the DAC board and solder the four wires to the connector pads.
 - Headphones plug straight into the DAC board's built-in jack — no DAC-to-jack wiring.
+
+## Soldering
+
+Photos go in `docs/images/` — add them with the filenames below and they'll show up here.
+
+1. **CC resistors** — Solder 5.1kΩ through-hole resistors to the CC pins on the USB-C breakout (R1 = CC1, R2 = CC2), then secure them with hot glue so they don't move or short.
+
+   ![CC resistors](docs/images/cc-resistors.jpg)
+
+2. **Desolder the USB-A connector** — Remove the USB-A plug from the DAC board (see "Desoldering the USB-A connector" above). Clean the pads with wick + flux.
+
+   ![USB-A desoldered](docs/images/usb-a-desoldered.jpg)
+
+3. **Wire the breakout to the DAC board** — Solder four wires from the breakout to the DAC board's USB-A pads: V → pin 1 (5V), D- → pin 2, D+ → pin 3, G → pin 4 (GND).
+
+   ![Wiring](docs/images/wiring.jpg)
+
+4. **Test** — Plug the USB-C end into the iPhone 15, check the DAC shows up, then plug headphones into the board's jack.
+
+   ![Finished adapter](docs/images/finished.jpg)
 
 ## Desoldering the USB-A connector
 
