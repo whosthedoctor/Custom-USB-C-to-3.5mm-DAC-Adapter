@@ -49,11 +49,6 @@ A USB-C to 3.5mm headphone adapter built from separate boards soldered together 
 
 4. **Wrap it** — Surround the whole wired assembly with electrical tape, then hot glue over it to hold everything in place and insulate the connections.
 
-   
-
-5. **Test** — Plug the USB-C end into the iPhone 15, check the DAC shows up, then plug headphones into the board's jack.
-
-   
 
 ## Desoldering the USB-A connector
 
