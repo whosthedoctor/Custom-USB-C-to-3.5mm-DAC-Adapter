@@ -58,7 +58,11 @@ Photos go in `docs/images/` — add them with the filenames below and they'll sh
 
    ![Wiring](docs/images/wiring.jpg)
 
-4. **Test** — Plug the USB-C end into the iPhone 15, check the DAC shows up, then plug headphones into the board's jack.
+4. **Wrap it** — Surround the whole wired assembly with electrical tape, then hot glue over it to hold everything in place and insulate the connections.
+
+   ![Wrapped in tape and hot glue](docs/images/wrapped.jpg)
+
+5. **Test** — Plug the USB-C end into the iPhone 15, check the DAC shows up, then plug headphones into the board's jack.
 
    ![Finished adapter](docs/images/finished.jpg)
 
