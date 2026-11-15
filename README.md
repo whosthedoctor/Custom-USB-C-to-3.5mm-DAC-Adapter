@@ -11,6 +11,7 @@ A USB-C to 3.5mm headphone adapter built from separate boards soldered together 
 ## What I already own: the USB-C breakout board
 
 - Male USB-C plug breakout, "ZMO" silkscreen.
+- Breakout board link: https://www.amazon.com/dp/B0D9W8B97B (MTDELE 10-pack — 5 male + 5 female, $6.99, Amazon).
 - Back pads: only G, D+, D-, V. No SBU pads on the back.
 - Front: R1 (populated), R2 (empty pads), C1 (populated).
 - CC lines are NOT on the back pads:
@@ -29,6 +30,7 @@ A USB-C to 3.5mm headphone adapter built from separate boards soldered together 
 ## The DAC board — ordered
 
 - **Hailege 2pcs 5V PCM2704 Sound Card Decoding Module DAC Decoder Board, $16.99 for 2 ($8.50 each), Amazon. Ordered 2026-11-15, arrives Tuesday Nov 17. $17.71 including tax, paid with gift card. Sold by Hailege US, ships from Amazon.**
+- Link: https://www.amazon.com/gp/product/B08D7D7KX4/ref=ox_sc_act_title_1?smid=A2F7ULK8PUMGS&psc=1
 - This is a 2-pack of bare PCM2704 boards on Amazon, found with the search terms below. (Earlier I thought no PCM2704 multi-pack existed on Amazon; this listing proves otherwise.)
 - Chip: TI PCM2704 — 16-bit / 48 kHz USB Audio Class 1.0 DAC + headphone amp. iOS supports UAC 1.0, so it works with the iPhone 15.
 - The board has a USB-A male plug on one end and a green 3.5mm jack on the other, with a 12.000 MHz crystal on board.
