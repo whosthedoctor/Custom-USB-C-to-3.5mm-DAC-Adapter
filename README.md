@@ -1,6 +1,6 @@
 # USB-C to 3.5mm DAC Adapter
 
-A USB-C to 3.5mm headphone adapter built from separate boards soldered together — soldering practice. The phone is an iPhone 15 (USB-C).
+A USB-C to 3.5mm headphone adapter built from separate boards soldered together for soldering practice.
 
 ## The idea
 
@@ -32,7 +32,7 @@ A USB-C to 3.5mm headphone adapter built from separate boards soldered together 
 - **Hailege 2pcs 5V PCM2704 Sound Card Decoding Module DAC Decoder Board, $16.99 for 2 ($8.50 each), Amazon. Ordered 2026-11-15, arrives Tuesday Nov 17. $17.71 including tax, paid with gift card. Sold by Hailege US, ships from Amazon.**
 - Link: https://www.amazon.com/gp/product/B08D7D7KX4/ref=ox_sc_act_title_1?smid=A2F7ULK8PUMGS&psc=1
 - This is a 2-pack of bare PCM2704 boards on Amazon, found with the search terms below. (Earlier I thought no PCM2704 multi-pack existed on Amazon; this listing proves otherwise.)
-- Chip: TI PCM2704 — 16-bit / 48 kHz USB Audio Class 1.0 DAC + headphone amp. iOS supports UAC 1.0, so it works with the iPhone 15.
+- Chip: TI PCM2704 — 16-bit / 48 kHz USB Audio Class 1.0 DAC + headphone amp
 - The board has a USB-A male plug on one end and a green 3.5mm jack on the other, with a 12.000 MHz crystal on board.
 - Caveat: cheap PCM2704 boards can have flaky USB descriptors and iOS is pickier than a computer — if it doesn't enumerate, that's the board, not the wiring.
 
@@ -66,7 +66,7 @@ Photos go in `docs/images/` — add them with the filenames below and they'll sh
 
    ![Wrapped in tape and hot glue](docs/images/wrapped.jpg)
 
-5. **Test** — Plug the USB-C end into the iPhone 15, check the DAC shows up, then plug headphones into the board's jack.
+5. **Test** — Plug the USB-C end into the phone, check the DAC shows up, then plug headphones into the board's jack.
 
    ![Finished adapter](docs/images/finished.jpg)
 
