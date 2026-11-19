@@ -23,7 +23,7 @@ Check the DAC board is getting about 5V at its 5V pin, and that nothing heats up
 
 ## 3. Data test on a sacrificial port
 
-Use an old laptop, a Raspberry Pi, or that same protected hub — something with USB overcurrent protection and a replaceable port, not the phone.
+Use the old laptop — something with USB overcurrent protection and a replaceable port, not the phone. A Raspberry Pi or a protected hub works the same way.
 
 Plug in through a USB power meter if you have one. It should show up as a USB audio device and stay under roughly 100–200mA while playing. Play audio and check both channels.
 
